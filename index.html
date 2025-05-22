@@ -4,6 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- ini adalah css internal -->
+    <style>
+      article {
+        background-color: lightcoral;
+      }
+    </style>
+
+    <!-- ini adalah css external -->
+    <link rel="stylesheet" href="css\style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- ini adalah css inline -->
+    <header onclick="showAlert()" style="background-color: blue">
+      <h1>ini judul halaman website Noaldy</h1>
+    </header>
+
+    <article>
+      <p>Lorem ipsum dolor</p>
+    </article>
+
+    <footer>
+      <span>ini footer halaman</span>
+    </footer>
+
+    <!-- internal js -->
+    <script>
+      // ini adalah funcion javascript
+      function showAlert() {
+        alert("ini adalah alert");
+      }
+    </script>
+  </body>
 </html>
